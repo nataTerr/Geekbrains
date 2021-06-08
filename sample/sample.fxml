@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="center" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+    <TextArea fx:id="chatWindow" editable="false" VBox.vgrow="ALWAYS">
+      <font>
+         <Font size="14.0" />
+      </font></TextArea>
+
+    <HBox>
+    <TextField fx:id="messageWindow" maxWidth="Infinity" onAction="#enter" HBox.hgrow="ALWAYS" />
+    <Button onAction="#enterMessage">Enter</Button>
+    </HBox>
+</VBox>
