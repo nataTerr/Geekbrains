@@ -1,0 +1,10 @@
+/authok bob
+Вы зашли в чат под именем bob
+/clients_list bob 
+Добавлен новый клиент kok
+/clients_list bob kok 
+от kok: kokkk
+пользователю kok: ppppp
+Клиент kok вышел из чата
+/clients_list bob 
+/exit
