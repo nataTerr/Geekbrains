@@ -1,0 +1,7 @@
+/authok kpk
+Вы зашли в чат под именем kpk
+/clients_list kpk 
+Добавлен новый клиент pop
+/clients_list kpk pop 
+Добавлен новый клиент oio
+/clients_list kpk pop oio 

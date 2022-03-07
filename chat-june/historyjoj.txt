@@ -1,0 +1,7 @@
+/authok joj
+Вы зашли в чат под именем joj
+/clients_list joj 
+Добавлен новый клиент pop
+/clients_list joj pop 
+от pop: lpl
+/exit

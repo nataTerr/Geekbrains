@@ -1,0 +1,3 @@
+/authok lol
+Вы зашли в чат под именем lol
+/clients_list lol 

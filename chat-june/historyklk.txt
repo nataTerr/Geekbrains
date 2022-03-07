@@ -1,0 +1,5 @@
+/authok klk
+Вы зашли в чат под именем klk
+/clients_list klk 
+Добавлен новый клиент ghgh
+/clients_list klk ghgh 

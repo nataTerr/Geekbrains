@@ -1,0 +1,12 @@
+/authok 1
+Вы зашли в чат под именем 1
+/clients_list 1 
+Добавлен новый клиент 2
+/clients_list 1 2 
+/authok 1
+Вы зашли в чат под именем 1
+/clients_list 1 
+Добавлен новый клиент 2
+/clients_list 1 2 
+Добавлен новый клиент ppp
+/clients_list 1 2 ppp 

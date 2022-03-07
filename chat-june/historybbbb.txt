@@ -1,0 +1,3 @@
+/authok bbbb
+Вы зашли в чат под именем bbbb
+/clients_list bob mom kok bbbb 

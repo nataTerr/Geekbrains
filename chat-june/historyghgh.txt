@@ -1,0 +1,3 @@
+/authok ghgh
+Вы зашли в чат под именем ghgh
+/clients_list klk ghgh 

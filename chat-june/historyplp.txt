@@ -1,0 +1,3 @@
+/authok plp
+Вы зашли в чат под именем plp
+/clients_list pop plp 

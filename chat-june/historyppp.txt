@@ -1,0 +1,3 @@
+/authok ppp
+Вы зашли в чат под именем ppp
+/clients_list 1 2 ppp 

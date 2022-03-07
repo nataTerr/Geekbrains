@@ -1,0 +1,7 @@
+/authok mom
+Вы зашли в чат под именем mom
+/clients_list bob mom 
+Добавлен новый клиент kok
+/clients_list bob mom kok 
+Добавлен новый клиент bbbb
+/clients_list bob mom kok bbbb 
