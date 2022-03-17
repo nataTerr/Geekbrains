@@ -1,0 +1,43 @@
+DEBUG 2022-03-16 01:00:03 [main] ru.geekbrains.server.Server (Server.java:26) - Connect to the base
+ERROR 2022-03-16 01:00:03 [main] ru.geekbrains.server.Server (Server.java:42) - Error {}
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method) ~[?:1.8.0_321]
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:102) ~[?:1.8.0_321]
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:513) ~[?:1.8.0_321]
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:180) ~[?:1.8.0_321]
+	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[?:1.8.0_321]
+	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[?:1.8.0_321]
+	at java.net.ServerSocket.<init>(ServerSocket.java:128) ~[?:1.8.0_321]
+	at ru.geekbrains.server.Server.<init>(Server.java:29) ~[classes/:?]
+	at ru.geekbrains.server.ServerMain.main(ServerMain.java:13) ~[classes/:?]
+DEBUG 2022-03-16 01:00:03 [main] ru.geekbrains.server.Server (Server.java:46) - Server closed
+ERROR 2022-03-16 01:02:04 [main] ru.geekbrains.server.Server (Server.java:42) - Error {}
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method) ~[?:1.8.0_321]
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:102) ~[?:1.8.0_321]
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:513) ~[?:1.8.0_321]
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:180) ~[?:1.8.0_321]
+	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[?:1.8.0_321]
+	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[?:1.8.0_321]
+	at java.net.ServerSocket.<init>(ServerSocket.java:128) ~[?:1.8.0_321]
+	at ru.geekbrains.server.Server.<init>(Server.java:29) ~[classes/:?]
+	at ru.geekbrains.server.ServerMain.main(ServerMain.java:13) ~[classes/:?]
+DEBUG 2022-03-16 01:02:38 [main] ru.geekbrains.server.Server (Server.java:26) - Connect to the base
+ERROR 2022-03-16 01:02:38 [main] ru.geekbrains.server.Server (Server.java:42) - Error {}
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method) ~[?:1.8.0_321]
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:102) ~[?:1.8.0_321]
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:513) ~[?:1.8.0_321]
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:180) ~[?:1.8.0_321]
+	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[?:1.8.0_321]
+	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[?:1.8.0_321]
+	at java.net.ServerSocket.<init>(ServerSocket.java:128) ~[?:1.8.0_321]
+	at ru.geekbrains.server.Server.<init>(Server.java:29) ~[classes/:?]
+	at ru.geekbrains.server.ServerMain.main(ServerMain.java:13) ~[classes/:?]
+DEBUG 2022-03-16 01:02:38 [main] ru.geekbrains.server.Server (Server.java:46) - Server closed
+DEBUG 2022-03-16 01:06:33 [main] ru.geekbrains.server.Server (Server.java:26) - Connect to the base
+DEBUG 2022-03-16 01:06:33 [main] ru.geekbrains.server.Server (Server.java:31) - Сервер запущен
+DEBUG 2022-03-16 01:06:45 [main] ru.geekbrains.server.Server (Server.java:36) - Клиент подключился
+DEBUG 2022-03-16 01:06:45 [pool-2-thread-1] ru.geekbrains.server.Server (Server.java:57) - Add new client pop
+DEBUG 2022-03-16 01:06:50 [pool-2-thread-1] ru.geekbrains.server.Server (Server.java:103) - Client pop wrote message
+DEBUG 2022-03-16 01:07:42 [pool-2-thread-1] ru.geekbrains.server.Server (Server.java:66) - Client pop is out

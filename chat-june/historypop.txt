@@ -1,0 +1,11 @@
+/authok pop
+Вы зашли в чат под именем pop
+/clients_list pop 
+pop: jjjjj
+Нельзя отправлять личные сообщения самому себе
+/exit
+/authok pop
+Вы зашли в чат под именем pop
+/clients_list pop 
+Нельзя отправлять личные сообщения самому себе
+/exit
