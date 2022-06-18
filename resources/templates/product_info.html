@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h2>Информация о продукте</h2>
+    <h3 th:text="${'ID: ' + product.id}"></h3>
+    <h3 th:text="${'Наименование: ' + product.title}"></h3>
+    <h3 th:text="${'Стоимость: ' + product.cost}"></h3>
+    <a th:href="@{'/show_all'}" class="btn btn-primary">В список продуктов</a>
+</div>
+</body>
+</html>
